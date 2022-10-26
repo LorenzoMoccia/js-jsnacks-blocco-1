@@ -7,10 +7,13 @@ const username = prompt("Qual'è il tuo nome?");
 let auth = false;
 
 
-for(let i; i < peopleParty.length; i++){
-    if(username === peopleParty[i]){
-        auth = true;
-    }
+for(let i = 0; i < peopleParty.length; i++){
+
+
+        if(username === peopleParty[i]){
+            auth = true;
+        }
+     
 }
 
 if(auth){
