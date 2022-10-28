@@ -6,7 +6,7 @@ let oddNumberArray = [];
 let i = 0;
 
 while(i < numberArray.length){
-    if(numberArray[i] % 2 !== 0){
+    if(i % 2 !== 0){
         const oddNumber = numberArray[i];
         oddNumberArray.push(oddNumber);
     }
