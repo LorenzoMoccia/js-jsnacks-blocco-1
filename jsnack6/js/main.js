@@ -1,7 +1,7 @@
 "use strict";
 
  
-let numberArray = [1, 10, 15, 90, 73, 23];
+let numberArray = [1, 10, 15, 90, 73, 92];
 let oddNumberArray = [];
 let i = 0;
 
